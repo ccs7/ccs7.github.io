@@ -3,3 +3,7 @@
 mac:
   name: Mac Reddin
   image: mac.png
+
+ccs:
+  name: Team CCS
+  image: logo.png
