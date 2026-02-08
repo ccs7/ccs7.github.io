@@ -51,15 +51,15 @@ nav_item_two: Project
 nav_item_two_link: https://twitter.com/TheTeaGuns
 
 # More Help
-help_one_title: Odin Bugs
-help_one_content: If you find any bugs or problems with this theme, please open an issue over on Github.
-help_one_button: Github
-help_one_link: https://github.com/TeaGuns/odin/issues
+menu_one_title: About us
+menu_one_content: Team CCS 소개
+menu_one_button: More
+menu_one_link: https://github.com/TeaGuns/odin/issues
 
-help_two_title: Twitter
-help_two_content: Feel free to tweet at me if you have suggestions for Odin. Or if you just want to say hi.
-help_two_button: Twitter
-help_two_link: https://twitter.com/theteaguns
+menu_two_title: Project
+menu_two_content: Team CCS에서 진행한 프로젝트 확인하기
+menu_two_button: More
+menu_two_link: https://twitter.com/theteaguns
 
 # Build settings
 theme: minima
