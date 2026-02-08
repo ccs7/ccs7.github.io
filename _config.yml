@@ -54,7 +54,7 @@ nav_item_two_link: https://twitter.com/TheTeaGuns
 menu_one_title: About us
 menu_one_content: Team CCS 소개
 menu_one_button: More
-menu_one_link: https://github.com/TeaGuns/odin/issues
+menu_one_link: subcategory-one
 
 menu_two_title: Project
 menu_two_content: Team CCS에서 진행한 프로젝트 확인하기
