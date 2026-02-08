@@ -1,9 +1,9 @@
 #This file defines all the categories you are using
 
 
-About us:
+about-us:
   name: About us
   description: 
-Project:
+project:
   name: Project
   description: 
