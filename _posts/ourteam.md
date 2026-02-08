@@ -1,0 +1,26 @@
+---
+layout: post
+title: "Our Team"
+date: 2020-12-01 08:44:38 +0900
+category: our-team
+author: Team CCS
+short-description: 
+---
+
+-----
+
+*Amazing Creator.*
+
+우리는 언제나 새로운 목표를 향해 항해할 수 있기를 희망합니다.
+
+
+#### Team Member
+
+* Leone
+* Armitage
+* Jiho
+
+#### Contact
+
+새로운 프로젝트를 제안하고자 하시는 분은 다음 연락처로 메일을 보내주세요.
+* contact@caledonia.re.kr
