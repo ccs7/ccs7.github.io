@@ -20,7 +20,7 @@ layout: default
             </li>
             {% if parent_slug %}
               <li class="breadcrumb-item">
-                <a href="{{ site.baseurl }}/{{ parent_slug }}/">
+                <a href="{{ site.baseurl }}/{{ parent_slug }}">
                   {% if subcat_data %}{{ subcat_data.parent-category-name }}{% else %}{{ parent_slug | capitalize }}{% endif %}
                 </a>
               </li>
@@ -28,7 +28,7 @@ layout: default
             
               {% if child_slug %}
               <li class="breadcrumb-item">
-                <a href="{{ site.baseurl }}/{{ child_slug }}/">
+                <a href="{{ site.baseurl }}/{{ child_slug }}">
                   {% if subcat_data %}{{ subcat_data.name }}{% else %}{{ child_slug | capitalize }}{% endif %}
                 </a>
               </li>
