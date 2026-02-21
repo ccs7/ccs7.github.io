@@ -59,7 +59,7 @@ menu_one_link: about-us
 menu_two_title: Project
 menu_two_content: Team CCS에서 진행한 프로젝트 확인하기
 menu_two_button: More
-menu_two_link: https://twitter.com/theteaguns
+menu_two_link: project
 
 # Build settings
 theme: minima
