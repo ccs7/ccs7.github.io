@@ -5,8 +5,9 @@ layout: default
 {% include header.html %}
 
 {% assign page_category = site.data.category_list[page.category] %}
-
-
+{% assign parent_slug = page.categories[0] %}
+{% assign child_slug = page.categories[1] %}
+{% assign subcat_data = site.data.subcategory_list[child_slug] %}
 <div class="container-full">
     <div class="container grid-xl">
       <div class="mt-12 show-md"></div>
@@ -17,9 +18,21 @@ layout: default
             <li class="breadcrumb-item">
               <a href="{{ site.url }}{{ site.baseurl }}">Team CCS</a>
             </li>
-            <li class="breadcrumb-item">
-              <a href="../{{ page.category }}">{{ page_category.name }}</a>
-            </li>
+            {% if parent_slug %}
+              <li class="breadcrumb-item">
+                <a href="{{ site.baseurl }}/{{ parent_slug }}/">
+                  {% if subcat_data %}{{ subcat_data.parent-category-name }}{% else %}{{ parent_slug | capitalize }}{% endif %}
+                </a>
+              </li>
+              {% endif %}
+            
+              {% if child_slug %}
+              <li class="breadcrumb-item">
+                <a href="{{ site.baseurl }}/{{ child_slug }}/">
+                  {% if subcat_data %}{{ subcat_data.name }}{% else %}{{ child_slug | capitalize }}{% endif %}
+                </a>
+              </li>
+              {% endif %}
             <li class="breadcrumb-item">
               <a href="#">{{ page.title }}</a>
             </li>
